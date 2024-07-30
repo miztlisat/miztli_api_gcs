@@ -1,3 +1,4 @@
+from datetime import datetime
 from pydantic import BaseModel
 
 
@@ -30,3 +31,4 @@ class ListMiztliSchema(BaseModel):
     angle_z: float
     battery_level: float
     transmission_status: str
+    created: datetime
